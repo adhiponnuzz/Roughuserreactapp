@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Navbar from './Navbar'
 
 const Login = () => {
     var [username,setUsername]=useState("")
@@ -12,6 +13,7 @@ const Login = () => {
     }
   return (
     <div>
+        <Navbar/>
 
 <div class="container">
     <div class="row">
