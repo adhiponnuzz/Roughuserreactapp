@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Navbar from './Navbar'
 
 const Register = () => {
     var [name,setName]=useState("")
@@ -17,6 +18,7 @@ const Register = () => {
     }
   return (
     <div>
+        <Navbar/>
 
 <div className="container">
     <div className="row">
